@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- scripts -->
+    <script src="burger.js" type="text/javascript"></script>
+    <!-- librarys -->
+    <script src="./assets/librarys/dragDropTouch.js" type="text/javascript"></script>
+    <script src="./assets/librarys/swiped-events.min.js" type="text/javascript"></script>
+    <script src="./assets/librarys/hammer.js" type="text/javascript"></script>
+    <script src="./assets/librarys/hammerTime.js" type="text/javascript"></script>
+    <script src="./assets/librarys/loading-bar.min.js"></script>
+    <script src="./assets/librarys/confetti.js"></script>
+    <script src="./assets/librarys/Sortable.min.js"></script>
+    <link rel="stylesheet" href="../assets/librarys/loading-bar.min.css">
+    <script src="https://www.youtube.com/player_api"></script>
+    <!-- links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="burger.css">
+    <!-- must come last -->
+    <link rel="stylesheet" href="tools.css"> 
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="../assets/images/homePage/tilllogoBlack.svg">
+    <title>תרגול גרירה המבורגר</title>
+</head>
+<body>
+    <div class="bodyContainer">
+        <!-- top bar -->
+        <div class="topBar">
+            <div class="logoAndFullScreen">
+                <img src="../assets/images/topBar/tillLogoWhite.svg" alt="tillLogo">
+            </div>
+            <div>
+                <div id="battery">0%</div>
+                <img id="batteryImg" src="../assets/images/topBar/batteryEmpty.svg" alt="tillLogo">
+            </div>
+        </div>
+        <!-- tillburger -->
+        <div class="tillburger bg">
+            <div id="tillburgerOpeningPage" class="menu centerItem">
+                <div id="tillburgerStartHeadline">ברוכים הבאים למסעדת TILLBURGER!</div>
+                <div id="tilburgerStartText" class="centerItem">מסעדת ההמבורגרים הטובה בבה"דים. <br> במסעדה שלנו אנחנו משרתים את הלקוחות ומרכיבים את המנות לפי בקשותיהם. <br> גררו את המרכיבים לפי הסדר על פי דרישות הלקוח!</div>
+                <div id="tillburgerStartButton" class="centerX">בואו נתחיל לבשל</div>
+            </div>
+            <div class="tillburgerExerPage">
+                <div id="tillburgerExerInstruction"></div>
+                <div class="hamburgerContainer centerItem">
+                    <div class="topBun buns"></div>
+                    <div class="tillburgerToppingsContainer" id="tillburgerToppingsContainer"></div>
+                    <div class="bottomBun buns"></div>
+                </div>
+                <img class="tillburgerSubmitButton" src="../assets/images/tillburger/bell.svg">
+            </div>
+            <div id="feedbackPage" class="menu centerItem hidden">
+                <div class="tillburgerFeedback"></div>
+                <div class="hamburgerContainer centerItem">
+                    <div class="topBun buns"></div>
+                    <div class="tillburgerToppingsFeedback"></div>
+                    <div class="bottomBun buns"></div>
+                </div>
+                <div id="tillburgerNextButton"></div>
+            </div>
+        </div>
+        <!-- battery progress -->
+        <div class="batteryProgressContainer darkScreen">
+            <div id="batteryProgress" class="label-center centerX" data-value="0" data-preset="circle"></div>
+        </div>
+    </div>
+</body>
+</html>
