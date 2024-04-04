@@ -3,7 +3,7 @@ const DONT_FORCE = 1;
 const DATA = { 
     // tillburger
     "tillburger": {
-        "icon": "../assets/images/homePage/tillburger.svg",
+        "icon": "./assets/images/homePage/tillburger.svg",
         "amountOfQuestions": 3, // how many questions will actualy appear
         "completed": false,
         "appContent": [
@@ -93,9 +93,9 @@ const startTillburgerExer = () => {
     };
     let life = El("div",{id: "tillburgerLifeContainer"},
         "נסיונות:",
-        El("img", {cls: "tillburgerLifeFries", id: "pattyLife3", attributes: {src: "../assets/images/tillburger/pattyLife.svg"}}),
-        El("img", {cls: "tillburgerLifeFries", id: "pattyLife2", attributes: {src: "../assets/images/tillburger/pattyLife.svg"}}),
-        El("img", {cls: "tillburgerLifeFries", id: "pattyLife1", attributes: {src: "../assets/images/tillburger/pattyLife.svg"}}),
+        El("img", {cls: "tillburgerLifeFries", id: "pattyLife3", attributes: {src: "./assets/images/tillburger/pattyLife.svg"}}),
+        El("img", {cls: "tillburgerLifeFries", id: "pattyLife2", attributes: {src: "./assets/images/tillburger/pattyLife.svg"}}),
+        El("img", {cls: "tillburgerLifeFries", id: "pattyLife1", attributes: {src: "./assets/images/tillburger/pattyLife.svg"}}),
     );
     document.querySelector(".tillburgerExerPage").prepend(life);
 
@@ -121,10 +121,10 @@ const onClickTillburgerSubmit = () => {
     let bCorrectAnswer = true;
     document.querySelectorAll(".tillburgerToppingsContainer .tillburgerTopping").forEach((e, index) => {
         if (e.children[0].innerHTML === arrTillburgerQuestions[nTillburgerCurrentQuestion].options[index]) {
-            e.style.backgroundImage = `url("../assets/images/tillburger/${e.classList[1]}Right.svg")`
+            e.style.backgroundImage = `url("./assets/images/tillburger/${e.classList[1]}Right.svg")`
         } else {
             bCorrectAnswer = false;
-            e.style.backgroundImage = `url("../assets/images/tillburger/${e.classList[1]}Wrong.svg")`
+            e.style.backgroundImage = `url("./assets/images/tillburger/${e.classList[1]}Wrong.svg")`
         }
     });
     if(bCorrectAnswer){
