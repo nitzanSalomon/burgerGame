@@ -1,7 +1,7 @@
 .tillburger {
     color: white;
     font-family: "Rubik";
-    background-image: url("../assets/images/tillburger/bg.svg");
+    background-image: url("./assets/images/tillburger/bg.svg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -48,19 +48,19 @@
 }
 
 .lettuce {
-    background-image: url("../assets/images/tillburger/lettuce.svg");
+    background-image: url("./assets/images/tillburger/lettuce.svg");
 }
 
 .tomato {
-    background-image: url("../assets/images/tillburger/tomato.svg");
+    background-image: url("./assets/images/tillburger/tomato.svg");
 }
 
 .patty {
-    background-image: url("../assets/images/tillburger/patty.svg");
+    background-image: url("./assets/images/tillburger/patty.svg");
 }
 
 .onion {
-    background-image: url("../assets/images/tillburger/onion.svg");
+    background-image: url("./assets/images/tillburger/onion.svg");
 }
 
 .buns {
@@ -78,12 +78,12 @@
     margin-bottom: -4vh;
     position: relative;
     z-index: 25;
-    background-image: url("../assets/images/tillburger/bunTop.svg");
+    background-image: url("./assets/images/tillburger/bunTop.svg");
     height: 14vh;
 }
 
 .bottomBun {
-    background-image: url("../assets/images/tillburger/bunBottom.svg");
+    background-image: url("./assets/images/tillburger/bunBottom.svg");
     height: 9vh;
     padding-top: 0.5rem;
 }
@@ -126,7 +126,7 @@
 }
 
 .menu {
-    background-image: url("../assets/images/tillburger/menuBg.svg");
+    background-image: url("./assets/images/tillburger/menuBg.svg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 91vw;
