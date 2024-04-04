@@ -1,85 +1,85 @@
 /* fonts */
 @font-face {
     font-family: Rubik;
-    src: url("../assets/fonts/rubik/Rubik-Bold.ttf");
+    src: url("./assets/fonts/rubik/Rubik-Bold.ttf");
     font-weight: 800;
 }
 
 @font-face {
     font-family: Rubik;
-    src: url("../assets/fonts/rubik/Rubik-Regular.ttf");
+    src: url("./assets/fonts/rubik/Rubik-Regular.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Rubik;
-    src: url("../assets/fonts/rubik/Rubik-Light.ttf");
+    src: url("./assets/fonts/rubik/Rubik-Light.ttf");
     font-weight: 100;
 }
 
 @font-face {
     font-family: Assistant;
-    src: url("../assets/fonts/assistant/Assistant-Regular.ttf");
+    src: url("./assets/fonts/assistant/Assistant-Regular.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Assistant;
-    src: url("../assets/fonts/assistant/Assistant-Bold.ttf");
+    src: url("./assets/fonts/assistant/Assistant-Bold.ttf");
     font-weight: 800;
 }
 
 @font-face {
     font-family: Calibri;
-    src: url("../assets/fonts/calibri/calibri.ttf");
+    src: url("./assets/fonts/calibri/calibri.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Calibri;
-    src: url("../assets/fonts/calibri/calibrib.ttf");
+    src: url("./assets/fonts/calibri/calibrib.ttf");
     font-weight: 800;
 }
 
 @font-face {
     font-family: DancingScript;
-    src: url("../assets/fonts/dancingScript/DancingScript-SemiBold.ttf");
+    src: url("./assets/fonts/dancingScript/DancingScript-SemiBold.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Amatica;
-    src: url("../assets/fonts/Amatica/AmaticaSC-Regular.ttf");
+    src: url("./assets/fonts/Amatica/AmaticaSC-Regular.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: frenchScript;
-    src: url("../assets/fonts/frenchScript/OPTIFrench-Script.otf");
+    src: url("./assets/fonts/frenchScript/OPTIFrench-Script.otf");
     font-weight: 200;
 }
 
 @font-face {
     font-family: Heebo;
-    src: url("../assets/fonts/heebo/Heebo-SemiBold.ttf");
+    src: url("./assets/fonts/heebo/Heebo-SemiBold.ttf");
     font-weight: 200;
 }
 
 @font-face {
     font-family: Heebo;
-    src: url("../assets/fonts/heebo/Heebo-Regular.ttf");
+    src: url("./assets/fonts/heebo/Heebo-Regular.ttf");
     font-weight: 100;
 }
 
 @font-face {
     font-family: matka;
-    src: url("../assets/fonts/OS-Luizi-FFC-v1/it_mankala.ttf");
+    src: url("./assets/fonts/OS-Luizi-FFC-v1/it_mankala.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Bangers;
-    src: url("../assets/fonts/bingo/Bangers-Regular.ttf");
+    src: url("./assets/fonts/bingo/Bangers-Regular.ttf");
     font-weight: 500;
 }
 

@@ -6,7 +6,7 @@ body, html {
     overflow-y: hidden;
     overflow-x: hidden;
     position: relative;
-    background-image: url("../assets/images/homePage/bg.svg");
+    background-image: url("./assets/images/homePage/bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
