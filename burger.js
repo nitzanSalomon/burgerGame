@@ -40,6 +40,8 @@ let arrQuestionFeedbackBurger = []
 const TOPPINGS = ["tomato","patty", "lettuce", "onion"];
 const TILLBURGER_FAIL_EXER = 3;
 const AMOUNT_OF_TILLBURGER_QUESTION = DATA.tillburger.amountOfQuestions; // how many questions we want out of the array
+var elem = document.querySelector("html");
+
 /* loading function
 --------------------------------------------------------------
 Description: */
@@ -47,6 +49,22 @@ window.addEventListener("load", () => {
     arrTillburgerQuestions = shuffle(DATA.tillburger.appContent);
     startTillburger();
 });
+
+function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.mozRequestFullscreen) { /* Firefox */
+      elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE/Edge */
+      elem.msRequestFullscreen();
+    } 
+    document.addEventListener('fullscreenchange', exitHandler, false);
+    document.addEventListener('mozfullscreenchange', exitHandler, false);
+    document.addEventListener('MSFullscreenChange', exitHandler, false);
+    document.addEventListener('webkitfullscreenchange', exitHandler, false);
+}
 
 /* startTillburger
 --------------------------------------------------------------
@@ -56,7 +74,7 @@ const startTillburger = () => {
         document.querySelector("#tillburgerOpeningPage").classList.add("hidden");
         startTillburgerExer();
     })
-    
+    document.querySelector("#tillburgerStartButton").addEventListener(`click`,openFullscreen);
 }
 
 
